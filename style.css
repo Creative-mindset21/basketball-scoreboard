@@ -13,7 +13,8 @@
 }
 
 body {
-  background: #075985;
+  background: url(basketball-court.jpg) no-repeat;
+  background-size: cover;
   display: flex;
   width: 100%;
   min-height: 100vh;
@@ -22,7 +23,7 @@ body {
 }
 
 .container {
-  background: #047857;
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,6 +31,8 @@ body {
   gap: 7rem;
   border-radius: 10px;
   position: relative;
+  border: 1px solid #868585;
+  backdrop-filter: blur(30px);
 }
 
 .emoji {
